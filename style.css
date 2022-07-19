@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    
+    
+    
+}
+
+.navbar{
+    margin: 50px 100px 50px 100px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+   
+    
+    
+}
+
+.navbar-items{
+    margin-right: 34px;
+}
+
+.navbar-links{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3A3A3A;
+    
+}
+
+
+/* hero image section */
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.hero-left{
+    width: 40%;
+
+}
+
+.hero-left h1{
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.hero-left p{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.btn-prmiary{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    border: none;
+    
+}
+
+.btn-prmiary a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn-prmiary .fa-arrow-right{
+    margin-left: 8px;
+}
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-background img{
+    width: 100%;
+    position: relative;
+}
+
+.hero-image{
+    position: absolute;
+    width: 400px;
+    height: 380px;
+    background-image: url(images/main-camera.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+    
+}
+
+.market-logos{
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(147,147,147,1) 50%,rgba(0,0,0,0) 100%);
+    border-image-slice: 1;
+    padding: 18px 0;
+    
+}
+
+.logo-item {
+    list-style-type: none;
+      
+    
+    
+}
+
+.logo-item img{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 50%;
+    height: 30px;
+}
+
+/* popular collection */
+
+.popular-section{
+    margin-top: 100px;
+}
+
+.popular-head{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* card section */
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 30px;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+.card{
+    width: 329px;
+    height: 476px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    
+}
+
+.card-image img{
+    display: flex;
+    margin: 17px auto;
+    
+}
+
+.card-body{
+    margin-left: 20px;
+       
+}
+
+.card-title{
+    color: #18191F;
+    font-size: 28px;
+}
+
+.card-price{
+    font-size: 18px;
+    color: #000000;
+    margin: 6px 0;
+    
+}
+
+.card-ratings .fa-star, .fa-star-half-stroke{
+    color: #fda63a;
+}
+
+.card-description{
+    color: #787885;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.more{
+    text-align: right;
+}
+.more a{
+    text-decoration: none;
+    text-align: right;
+    margin-right: 220px;
+    color: #E02C6D;
+
+    
+}
+
+/* feature section */
+
+.feature-container{
+    margin: 100px 165px;
+}
+
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-right{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.feature-right h3{
+    font-size: 33px;
+    color: #0A0826;
+    padding-bottom: 30px;
+    
+}
+
+.feature-right p{
+    color: #6C6C6C;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.btn-secondary{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    
+}
+
+.btn-secondary a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
